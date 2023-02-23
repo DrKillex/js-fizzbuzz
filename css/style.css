@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.container div {
+    width: calc(100% / 10 - 20px);
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fizzbuzz {
+    background-color: brown;
+    color: blue;
+}
+
+.fizz {
+    background-color: chartreuse;
+}
+
+.buzz {
+    background-color: darkgreen;
+    color: white;
+}
+
+.numero {
+    background-color: yellow;
+}
