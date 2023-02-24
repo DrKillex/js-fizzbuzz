@@ -1,6 +1,6 @@
 'use strict';
 
-const container = document.getElementById('container')
+const container = document.getElementById('container');
 
 for(let i = 1; i <= 100; i++){
     const divEz = document.createElement('div');
